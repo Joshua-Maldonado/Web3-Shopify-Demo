@@ -33,17 +33,18 @@ export default function ProductPage(props) {
   return (
     <div  className="verified-parent">
      <div className="redirect-section">
-           <div>
+           <div className='product-header'>
             <h1 className="heading-text product">Claim Product</h1>
             <p className="paragraph product-page">Please select your hoodie size to begin the complete the claim process.</p>
            </div>
-           <div className="product-container">
+           <div className="product-container claim-container">
              <div className="split-parent">
                <div className="split-child">
                <img src="nftimg.png"  />
                </div>
                <div className="split-child">
                  <h1  className="heading mobile product title-product third">Top Drawer Merch Club Hoodie</h1>
+                 <h5 className='title-subheading'>1 CLAIMABLE</h5>
                  <p className="sub-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt sagittis eros. Quisque quis euismod lorem. Etiam sodales ac felis id interdum.</p>
                  <p className="sub-heading">• Lorem ipsum dolor sit amet<br></br>• Lorem ipsum dolor sit amet<br></br>• Lorem ipsum dolor sit amet<br></br>• Lorem ipsum dolor sit amet</p>
                 <ProductForm wallet={props.wallet} tokenid={props.tokenid} sizeChart={toggleSizeChart} error={props.error}></ProductForm> 

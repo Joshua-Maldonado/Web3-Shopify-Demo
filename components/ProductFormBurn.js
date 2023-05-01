@@ -216,7 +216,7 @@ class ProductFormBurn extends React.Component {
             if( btnStatus == true){
                     
                     this.setState({['button_status']: ''});
-                    this.setState({['button_text']: 'Submit'});
+                    this.setState({['button_text']: 'COMPLETE BURN'});
                     console.log("BUTTON STATUS: TRUE")
                 }
                 
@@ -403,17 +403,15 @@ class ProductFormBurn extends React.Component {
       render() {
         return(
         <div>
-            <div className='product-page-header'>
-                    <h1 className="heading-text product">Claim Product</h1>
-                    <p className="paragraph product-page">Please select your hoodie size to begin the complete the claim process.</p>
-            </div>
-            <div className="product-container">
+            
+            <div className="product-container burn-container">
                 <div className="split-parent">
                 <div className="split-child">
                 <img src="nftimg.png"  />
                 </div>
                 <div className="split-child">
                     <h1  className="heading mobile product title-product third">Top Drawer Merch Club Hoodie</h1>
+                    <h5 className='title-subheading'>BURN TO REDEEM</h5>
                     <p className="sub-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt sagittis eros. Quisque quis euismod lorem. Etiam sodales ac felis id interdum.</p>
                     <p className="sub-heading">• Lorem ipsum dolor sit amet<br></br>• Lorem ipsum dolor sit amet<br></br>• Lorem ipsum dolor sit amet<br></br>• Lorem ipsum dolor sit amet</p>
                     <div className="product-form">
@@ -436,7 +434,7 @@ class ProductFormBurn extends React.Component {
                 </div> 
             </div>
             <div className="form-parent">
-                <h1 className="heading mobile">Claim Now</h1>
+                <h1 className="heading mobile">Complete Burn</h1>
                 <p className="paragraph">Fill out the form below to claim your reward. The burn-to-claim will process once you click the "Submit" button at the end of the form.</p>
                 <div className="checkout-form">
                     <div className='form-imput-parent'>
@@ -585,7 +583,7 @@ class ProductFormBurn extends React.Component {
                     </div>
                     
                     
-                    <button id="walletButton" className="cta button claim submit-buttom disabled" disabled={this.state.button_status} onClick={this.handleSubmit}>{this.state.button_text}</button>
+                    <button id="walletButton" className="cta button burn submit-buttom disabled" disabled={this.state.button_status} onClick={this.handleSubmit}>{this.state.button_text}</button>
                     
                 </div>
                 

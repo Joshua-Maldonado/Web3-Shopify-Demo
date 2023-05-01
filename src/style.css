@@ -217,7 +217,7 @@ p.paragraph.product-page {
     padding-bottom: 60px;
       max-width: 1000px;
       margin-bottom: 75px;
-      border-bottom: 1px solid rgb(255, 255, 255);
+      border-bottom: 1px solid rgb(0, 0, 0);
       margin: auto;
       
   }
@@ -390,7 +390,7 @@ p.paragraph.product-page {
     margin-bottom: 0px;
     align-items: center;
   }
-  button.cta.button.claim.submit-buttom {
+  button.cta.button.burn.submit-buttom {
     
     max-width: none !important;
 }
@@ -403,6 +403,7 @@ p.paragraph.product-page {
 .form-parent {
     width: 100%;
     margin-bottom: 120px;
+    margin-top: 60px;
   }
   div.checkout-form input {
     margin: 0;
@@ -604,4 +605,39 @@ div#home-button {
 img.home-btn {
     height: 85%;
     width: auto;
+}
+.product-page-header {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+p.size-chart-button {
+  text-align: right;
+  text-decoration: underline;
+  cursor: pointer;
+}
+h5.title-subheading {
+  margin: 0;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 21px;
+}
+h1.heading.mobile.product.title-product {
+  margin-bottom: 6px;
+    font-size: 26px;
+    line-height: 24px;
+}
+.product-container.claim-container {
+  border-bottom: none !important;
+}
+h1.heading-text.product {
+  margin: 0;
+}
+.product-header {
+  margin-bottom: 30px;
+}
+button#walletButton.claim {
+  width: 100%;
+}
+.product-container.burn-container {
+  margin-top: 80px;
 }
