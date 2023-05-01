@@ -4,7 +4,7 @@ import getTokensBurn from '../api/getTokensBurn'
 
 
 
-async function getTokenBurnData(productPage) {
+async function GetTokenBurnData(productPage) {
   const { address } = useAccount()
 
   const waitingParent = document.createElement("div");
@@ -128,7 +128,7 @@ async function getTokenBurnData(productPage) {
 
 export default function TokenGridBurn(props) {
     
-     getTokenBurnData(props.productPage)
+     GetTokenBurnData(props.productPage)
 
 
 return (
