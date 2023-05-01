@@ -258,6 +258,7 @@ p.paragraph.product-page {
     padding: 10px 20px;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
+    font-family: var(--pt-root-ui) !important;
   }
   .table {
     display: flex;
