@@ -1,5 +1,5 @@
 async function fetchDBData(search) {
-  const result = fetch('http://localhost:4000/getdbdata/'+search).then(function(response) {
+  const result = fetch('/getdbdata/'+search).then(function(response) {
     console.log("RES STATUS: "+response.status )
     return response.json();
     
@@ -13,7 +13,7 @@ async function fetchDBData(search) {
 }
 
 async function fetchTokens(address) {
-  const result = fetch('http://localhost:4000/gettokendata/'+address).then(function(response) {
+  const result = fetch('/gettokendata/'+address).then(function(response) {
     console.log("RES STATUS: "+response.status )
     return response.json();
     

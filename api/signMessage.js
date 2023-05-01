@@ -1,5 +1,5 @@
 export default async function signMessage(address) {
-    const result = fetch('http://localhost:4000/sign/'+address).then(function(response) {
+    const result = fetch('/sign/'+address).then(function(response) {
         console.log("RES STATUS: "+response.status )
         return response.json();
         

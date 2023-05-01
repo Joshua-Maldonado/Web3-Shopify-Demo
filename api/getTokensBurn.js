@@ -1,6 +1,6 @@
 
   async function fetchTokensBurn(address) {
-    const result = fetch('http://localhost:4000/gettokendata/'+address).then(function(response) {
+    const result = fetch('/gettokendata/'+address).then(function(response) {
       console.log("RES STATUS: "+response.status )
       return response.json();
       
