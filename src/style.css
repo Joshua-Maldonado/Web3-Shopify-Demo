@@ -1,21 +1,21 @@
 @font-face {
     font-family: pt-root-ui;
-    src: url("pt-root-ui.woff2") format("woff2"),
-      url("pt-root-ui.woff") format("woff");
+    src: url("../asset/pt-root-ui/pt-root-ui.woff2") format("woff2"),
+      url("../asset/pt-root-ui/pt-root-ui.woff") format("woff");
     font-weight: normal;
     font-style: normal;
   }
   @font-face {
     font-family: pt-root-ui-medium;
-    src: url("pt-root-ui_medium.woff2") format("woff2"),
-      url("pt-root-ui_medium.woff") format("woff");
+    src: url("../asset/pt-root-ui/pt-root-ui_medium.woff2") format("woff2"),
+      url("../asset/pt-root-ui/pt-root-ui_medium.woff") format("woff");
     font-weight: normal;
     font-style: normal;
   }
   @font-face {
     font-family: pt-root-ui-bold;
-    src: url("pt-root-ui_bold.woff2") format("woff2"),
-      url("pt-root-ui_bold.woff") format("woff");
+    src: url("../asset/pt-root-ui/pt-root-ui_bold.woff2") format("woff2"),
+      url("../asset/pt-root-ui/pt-root-ui_bold.woff") format("woff");
     font-weight: normal;
     font-style: normal;
   }
