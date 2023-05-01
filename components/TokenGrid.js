@@ -4,7 +4,7 @@ import getTokens from '../api/getTokens'
 
 
 
-async function getTokenData(productPage) {
+async function GetTokenData(productPage) {
   const { address } = useAccount()
 
   const waitingParent = document.createElement("div");
@@ -135,7 +135,7 @@ async function getTokenData(productPage) {
 
 export default function TokenGrid(props) {
     
-     getTokenData(props.productPage)
+     GetTokenData(props.productPage)
 
 
 return (
