@@ -30,7 +30,7 @@
 img.logo-img {
     max-width: 155px;
 }
-.Container--c12h69.cZSFwV.primary {
+.Container--c12h69.primary {
     background-color: black !important;
     border-radius: 0;
     display: flex;
@@ -49,7 +49,7 @@ img.logo-img {
     padding-top: 0;
     padding-bottom: 0;
 }
-.IconContainer--1s3i64j.bQVTig {
+.IconContainer--1s3i64j {
     display: none;
 }
 .main-content {
@@ -153,10 +153,10 @@ p.paragraph.demo {
     margin-bottom: 25px;
 }
 
-.wallet-button button:hover .Container--c12h69.cZSFwV.primary {
+.wallet-button button:hover .Container--c12h69.primary {
     border-radius: 0 !important;
 }
-button:hover .Container--c12h69.cZSFwV.primary {
+button:hover .Container--c12h69.primary {
     border-radius: 0 !important;
 }
 .index-section-subcontent {
@@ -576,11 +576,11 @@ h2.waiting-text{
 h1.no-token-text {
     margin-bottom: 0;
 }
-.ResetContainer--f8irz5.bIvucn {
+.ResetContainer--f8irz5 {
     height: 100%;
     display: block;
 }
-button.ThemeContainer--hv3pcf.jXFCji {
+button.ThemeContainer--hv3pcf {
     height: 100%;
 }
 div#home-button {
