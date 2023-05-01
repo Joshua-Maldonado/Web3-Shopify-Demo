@@ -24,7 +24,7 @@ function Page() {
           <div className='logo-content'>
             <img src="tdmLogo.png" className='logo-img'/>
           </div>
-          <div className='wallet-button'><ConnectKitButton /></div>
+          <div className='wallet-button connected'><ConnectKitButton /></div>
         </div>
       </div>
       <div className='main-content'>

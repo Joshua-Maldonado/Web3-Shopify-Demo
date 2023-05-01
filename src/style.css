@@ -641,3 +641,46 @@ button#walletButton.claim {
 .product-container.burn-container {
   margin-top: 80px;
 }
+.modal-size-chart h1{
+  text-align: center;
+}
+
+@media screen and (max-width: 769px) {
+  .demo-selector {
+      flex-wrap: wrap;
+  }
+  .IconContainer--1s3i64j {
+     display: block;
+     margin: 0 !important;
+}
+.Container--c12h69.primary {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.wallet-button.connected .TextContainer--y9hkda {
+  font-size: 0;
+}
+.ResetContainer--f8irz5 {
+  height: 100%;
+  display: block !important;
+}
+.nft-superchild {
+  width: 77.33%;
+}
+.split-child {
+  width: 90%;
+}
+.split-parent {
+  display: flex;
+  flex-direction: revert;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+}
+.form-parent {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 120px;
+  margin-top: 60px;
+}
+}

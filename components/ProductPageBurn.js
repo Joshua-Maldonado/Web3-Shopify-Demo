@@ -42,51 +42,39 @@ export default function ProductPageBurn(props) {
               <div className="table">
                 <div className="table-row first">
                   <div className="table-cell first">Size</div>
-                  <div className="table-cell">Chest (in.)</div>
-                  <div className="table-cell">Waist (in.)</div>
-                  <div className="table-cell">Hip (in.)</div>
-                </div>
-                <div className="table-row">
-                  <div className="table-cell first">XS</div>
-                  <div className="table-cell">32.5 - 34</div>
-                  <div className="table-cell">27.5 - 29</div>
-                  <div className="table-cell">32 - 33.5</div>
+                  <div className="table-cell">Chest</div>
+                  <div className="table-cell">Waist</div>
+                  <div className="table-cell">Hip</div>
                 </div>
                 <div className="table-row">
                   <div className="table-cell first">S</div>
-                  <div className="table-cell">34.5 - 36</div>
-                  <div className="table-cell">29.5 - 31.5</div>
-                  <div className="table-cell">34 - 36</div>
+                  <div className="table-cell">34.5</div>
+                  <div className="table-cell">29.5</div>
+                  <div className="table-cell">34</div>
                 </div>
                 <div className="table-row">
                   <div className="table-cell first">M</div>
-                  <div className="table-cell">36.5 - 39</div>
-                  <div className="table-cell">32 - 34.5</div>
-                  <div className="table-cell">36.5 - 39</div>
+                  <div className="table-cell">36.5</div>
+                  <div className="table-cell">32</div>
+                  <div className="table-cell">36.5</div>
                 </div>
                 <div className="table-row">
                   <div className="table-cell first">L</div>
-                  <div className="table-cell">39.5 - 42.5</div>
-                  <div className="table-cell">35 - 38</div>
-                  <div className="table-cell">39.5 - 42</div>
+                  <div className="table-cell">39.5</div>
+                  <div className="table-cell">35</div>
+                  <div className="table-cell">39.5</div>
                 </div>
                 <div className="table-row">
                   <div className="table-cell first">XL</div>
-                  <div className="table-cell">43 - 46.5</div>
-                  <div className="table-cell">38.5 - 42</div>
-                  <div className="table-cell">42.5 - 45.5</div>
+                  <div className="table-cell">43</div>
+                  <div className="table-cell">38.5</div>
+                  <div className="table-cell">42.5</div>
                 </div>
                 <div className="table-row">
                   <div className="table-cell first">2XL</div>
-                  <div className="table-cell">47 - 51</div>
-                  <div className="table-cell">42.5 - 47</div>
-                  <div className="table-cell">46 - 49</div>
-                </div>
-                <div className="table-row">
-                  <div className="table-cell first">3XL</div>
-                  <div className="table-cell">51.5 - 56</div>
-                  <div className="table-cell">47.5 - 52</div>
-                  <div className="table-cell">49.5 - 53</div>
+                  <div className="table-cell">47</div>
+                  <div className="table-cell">42.5</div>
+                  <div className="table-cell">46</div>
                 </div>
               </div>
             </div>
