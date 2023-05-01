@@ -16,7 +16,7 @@ function App() {
     <WagmiConfig client={client}>
       <ConnectKitProvider>
         <NextHead>
-          <title>TDM Web3 Demo</title>
+          <title>Top Drawer Merch Web3 Demo</title>
           <link rel="shortcut icon" href="favicon.png" />
         </NextHead>
 
