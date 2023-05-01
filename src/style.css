@@ -1,7 +1,7 @@
 @font-face {
     font-family: pt-root-ui;
-    src: url("public/pt-root-ui.woff2") format("woff2"),
-      url("public/pt-root-ui.woff") format("woff");
+    src: url("pt-root-ui.woff2") format("woff2"),
+      url("pt-root-ui.woff") format("woff");
     font-weight: normal;
     font-style: normal;
   }
