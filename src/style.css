@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: pt-root-ui;
     src: url("../asset/pt-root-ui/pt-root-ui.woff2") format("woff2"),
       url("../asset/pt-root-ui/pt-root-ui.woff") format("woff");
@@ -18,7 +18,7 @@
       url("../asset/pt-root-ui/pt-root-ui_bold.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-  }
+  } */
   p,label{
     font-family: pt-root-ui !important;
 
