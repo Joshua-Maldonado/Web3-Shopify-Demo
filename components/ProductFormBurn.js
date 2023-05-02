@@ -4,6 +4,8 @@ import { Loader } from "@googlemaps/js-api-loader"
 import customData from '../src/abi.json';
 import addTransaction from '../api/addTransaction'
 import sendNewOrder from '../api/sendNewOrder'
+import { fetchSigner } from '@wagmi/core'
+
 class ProductFormBurn extends React.Component {
 
     
@@ -362,7 +364,7 @@ class ProductFormBurn extends React.Component {
             try{
                 
                 const provider = new ethers.providers.Web3Provider(window.ethereum);
-                 const signer = provider.getSigner();
+                const signer = await fetchSigner()
                  const contract = new ethers.Contract("0x12374fdBC3caFbf899D99Aacd0BCa79cA0be56f0",customData.abi,signer);
                  console.log("TOKEN ID: "+this.props.tokenid+" CONTRACT DATA: "+JSON.stringify(contract.functions))
                  try{

@@ -166,6 +166,9 @@ function errorBurn () {
     if(res.transactionHash.status == 1){
       home()
     } 
+    else if(res.transactionHash.transactionHash == false){
+      home()
+    }
     else {
       mintingError()
     }
