@@ -46,7 +46,7 @@ app.prepare().then(() => {
   var jsonParser = bodyParser.json()
 
 
-  var allowedOrigins = ['http://localhost:4000'];
+  var allowedOrigins = ['https://tdm-web3-demo.herokuapp.com','http://localhost:4000'];
   server.use(cors({
     origin: function(origin, callback){
       // allow requests with no origin 
