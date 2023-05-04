@@ -322,7 +322,7 @@ server.post('/neworder', jsonParser, async function(req, res) {
 server.get('/add/:hash/:address/:token_id', function(req, res) {
   var origin = req.get('sec-fetch-site');
   if(origin == "same-origin"){
-    if(origin == 'http://localhost:4000/'){
+    
       console.log("PINGED add: "+req.params.hash+" "+req.params.address+" "+req.params.token_id)
       console.log(req)
       var params = {
@@ -339,16 +339,13 @@ server.get('/add/:hash/:address/:token_id', function(req, res) {
         dbb.putItem(params, function(err, data) {
           if (err) {
             console.log("Error", err);
-            res.status(200).send(JSON.stringify({success: false, data: data}))
+            res.status(400).send(JSON.stringify({success: false, data: data}))
           } else {
             console.log("Success");
             res.status(200).send(JSON.stringify({success: true, data: data}))
           }
         });
-    }
-    else{
-      res.status(400).send(JSON.stringify({success: false}))
-    }
+   
   }
   else {
     res.status(400).send(JSON.stringify({success: false}))
