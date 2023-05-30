@@ -61,7 +61,7 @@ class ProductForm extends React.Component {
         event.preventDefault();
         try{
           const provider = new ethers.providers.Web3Provider(window.ethereum);
-          const signer = await fetchSigner()
+          const signer = await fetchSigner();
           await signer.getAddress().then(async (res) => {
             console.log("RESPONSE: "+ res + " CONNECTED: "+ this.props.wallet );
             if(res === this.props.wallet){
