@@ -200,10 +200,28 @@ app.prepare().then(() => {
 
   })
 
+  server.get('/approve/:selected/:address/:token_id', function (req, res) {
+    console.log("PINGED Approval: "+req.params.selected)
+    var origin = req.get('sec-fetch-site');
+    if(origin == "same-origin"){
+      
+      //res.redirect('https://05-tdm-web3-demo.myshopify.com/'+req.params.url);
+      var url = 'https://05-tdm-web3-demo.myshopify.com/cart/'+req.params.selected+":1?note="+req.params.token_id+"&attributes[wallet]="+req.params.address+"&attributes[type]=claim"
+      console.log("claim request", url)
+       //res.redirect(301,url);
+      
+    }
+    else{
+      res.status(400).send(JSON.stringify("NA_ERR"))
+    }
+  })
+
+  
 
   server.get('/sign/:address',  async function (req, res) {
     var origin = req.get('sec-fetch-site');
     if(origin == "same-origin"){
+      
     const sign = await signer.signMessage("SIGN THIS MESSAGE");
     console.log("SIGNED THIS: ", sign)
     }

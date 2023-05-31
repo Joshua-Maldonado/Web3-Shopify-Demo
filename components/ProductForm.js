@@ -68,10 +68,12 @@ class ProductForm extends React.Component {
               try{
               await signer.signMessage("Confirm merch claim on 1 Top Drawer Merch Club Hoodie").then((res) => {
                 console.log("SUCCESS: "+res);
-                var url = "https://05-tdm-web3-demo.myshopify.com/cart/"+ this.state.selected +":1?note="+this.state.token_id+"&attributes[wallet]="+this.props.wallet+"&attributes[type]=claim";
+                var url = '/approve/'+this.state.selected +'/'+ this.props.wallet +'/'+ this.state.token_id;
 
                     console.log("URL: "+ url);
-                    window.location.href = url;
+                    //window.location.href = url;
+
+                    fetch(url);
 
                     }).catch((err) => {
                             console.log('Error:', err);
