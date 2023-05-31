@@ -208,6 +208,7 @@ app.prepare().then(() => {
       //res.redirect('https://05-tdm-web3-demo.myshopify.com/'+req.params.url);
       var url = 'https://05-tdm-web3-demo.myshopify.com/cart/'+req.params.selected+":1?note="+req.params.token_id+"&attributes[wallet]="+req.params.address+"&attributes[type]=claim"
       console.log("claim request", url)
+      res.setHeader('Access-Control-Allow-Origin', '*');
        res.redirect(301,url);
       
     }
