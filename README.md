@@ -1,7 +1,7 @@
 <p align="center">
     <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" align="center" width="30%">
 </p>
-<p align="center"><h1 align="center">Web 3 E-Commerce Demo</h1></p>
+<p align="center"><h1 align="center">Web3 E-Commerce Demo</h1></p>
 <p align="center">
     <!-- <em><code>❯ REPLACE-ME</code></em> -->
 </p>
