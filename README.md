@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://img.icons8.com/?size=512&id=55494&format=png" align="center" width="30%">
+    <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" align="center" width="30%">
 </p>
 <p align="center"><h1 align="center">Web 3 E-Commerce Demo</h1></p>
 <p align="center">
