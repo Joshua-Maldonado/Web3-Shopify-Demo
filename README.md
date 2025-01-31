@@ -1,7 +1,7 @@
 <p align="center">
     <img src="https://img.icons8.com/?size=512&id=55494&format=png" align="center" width="30%">
 </p>
-<p align="center"><h1 align="center">WEB3-SHOPIFY-DEMO</h1></p>
+<p align="center"><h1 align="center">Web 3 E-Commerce Demo</h1></p>
 <p align="center">
     <em><code>❯ REPLACE-ME</code></em>
 </p>
@@ -10,7 +10,7 @@
 <p align="center">Built with the tools and technologies:</p>
 <p align="center">
     <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=css,express,md,react&theme=light">
+        <img src="https://skillicons.dev/icons?i=nodejs,react,html,css&theme=light">
     </a></p>
 <br>
 
@@ -34,13 +34,13 @@
 
 ## 📍 Overview
 
-<code>❯ REPLACE-ME</code>
+<code>This is a Next JS + React JS Web 3 Application that uses Wagmi andConnectKit to demo 3 different examples of how improve utility of NFTs from a e-commerce perspective</code>
 
 ---
 
 ## 👾 Features
 
-<code>❯ REPLACE-ME</code>
+<code>This project features 3 different NFT + E-Commerce activations. <br> - <strong>Token Gate:</strong> The user connects their wallet, if they have the required NFT token, they are allowed to enter the storefront. <br> - <strong>Burn To Redeem:</strong> The user is burns a NFT token to receive physical merchandise <br> - <strong>Claim To Redeem:</strong> The user claims merchandise for an NFT. In this route, the token is not burned. Instead, the metadata of the token updates to show the merchandise has already been claimed</code>
 
 ---
 
