@@ -1,32 +1,4 @@
-/* @font-face {
-    font-family: pt-root-ui;
-    src: url("../asset/pt-root-ui/pt-root-ui.woff2") format("woff2"),
-      url("../asset/pt-root-ui/pt-root-ui.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: pt-root-ui-medium;
-    src: url("../asset/pt-root-ui/pt-root-ui_medium.woff2") format("woff2"),
-      url("../asset/pt-root-ui/pt-root-ui_medium.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: pt-root-ui-bold;
-    src: url("../asset/pt-root-ui/pt-root-ui_bold.woff2") format("woff2"),
-      url("../asset/pt-root-ui/pt-root-ui_bold.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-  } */
-  /* p,label{
-    font-family: pt-root-ui !important;
 
-  }
-  h1,h2,h3,h4,h5 {
-    font-family: pt-root-ui-medium !important;
-    font-weight: 500;
-  } */
 img.logo-img {
     max-width: 155px;
 }

@@ -49,12 +49,12 @@ else {
       <div className='main-content'>
         <div className='index-section'>
           <h2 className='heading-text h2'>Connect Wallet</h2>
-          <p className='paragraph welcome'>Only owners of a Top Drawer Merch Club NFT are allowed to access the Top Drawer Shop. Please connect your wallet now to verify NFT owenership.</p>
+          <p className='paragraph welcome'>Only owners of a TDMM Club NFT are allowed to access the Top Drawer Shop. Please connect your wallet now to verify NFT owenership.</p>
           <ConnectKitButton />
         </div>
       </div>
       <div className='footer'>
-        <p className='footer-text'>Web3 & verification by Top Drawer Merch</p>
+        <p className='footer-text'>Web3 & verification by TDM</p>
       </div>
     </div>
   )

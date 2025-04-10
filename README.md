@@ -34,7 +34,7 @@
 
 ## 📍 Overview
 
-<code>This is a Next JS + React JS Web 3 Application that uses Wagmi andConnectKit to demo 3 different examples of how improve utility of NFTs from a e-commerce perspective</code>
+<code>This is a Next JS + React JS Web 3 Application that uses Wagmi andConnectKit to demo 3 different examples of how improve utility of NFTs from a e-commerce perspective. Built by Josh Maldonado</code>
 
 ---
 

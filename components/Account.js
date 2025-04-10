@@ -94,7 +94,7 @@ function validWallet(){
   setStatus(
     <div className='index-section-subcontent'>
                       <h2 className='heading-text h2'>Successful Verification</h2>
-                      <p className='paragraph'>Looks like you own one or more Top Drawer Merch Club NFTs. Click the button below to shop the members-only Top Drawer Shop.</p>
+                      <p className='paragraph'>Looks like you own one or more TDM Club NFTs. Click the button below to shop the members-only TDM Shop.</p>
                       <button className='cta button big-btn'>Shop Now</button>
               </div>
   );
@@ -179,7 +179,7 @@ function errorBurn () {
       <div className='index-section-home'>
         <div className='mint-section'>
         <h2 className='heading-text h2 intro '>Select a Demo</h2>
-          <p className='paragraph demo-select'>Select a demo below to view the user experience for the corresponding Top Drawer Web3 App. You'll need to mint at least one Top Drawer Merch Club NFT before you are able to view and interact with the demos.</p>
+          <p className='paragraph demo-select'>Select a demo below to view the user experience for the corresponding Top Drawer Web3 App. You'll need to mint at least one TD Club NFT before you are able to view and interact with the demos.</p>
           <button className='cta button' disabled onClick={mint}>MINTING...</button>
         </div>
               <div className='demo-selector'>
@@ -220,7 +220,7 @@ function errorBurn () {
       <div className='index-section-home'>
       <div className='mint-section'>
       <h2 className='heading-text h2 intro '>Select a Demo</h2>
-        <p className='paragraph demo-select'>Select a demo below to view the user experience for the corresponding Top Drawer Web3 App. You'll need to mint at least one Top Drawer Merch Club NFT before you are able to view and interact with the demos.</p>
+        <p className='paragraph demo-select'>Select a demo below to view the user experience for the corresponding Top Drawer Web3 App. You'll need to mint at least one TDM Club NFT before you are able to view and interact with the demos.</p>
         <h3>There was an error minting, try again</h3>
         <button className='cta button' onClick={mint}>MINT NFT</button>
       </div>
@@ -264,7 +264,7 @@ function errorBurn () {
       <div className='index-section-home'>
         <div className='mint-section'>
           <h2 className='heading-text h2 intro '>Select a Demo</h2>
-          <p className='paragraph demo-select'>Select a demo below to view the user experience for the corresponding Top Drawer Web3 App. You'll need to mint at least one Top Drawer Merch Club NFT before you are able to view and interact with the demos.</p>
+          <p className='paragraph demo-select'>Select a demo below to view the user experience for the corresponding Top Drawer Web3 App. You'll need to mint at least one TDM Club NFT before you are able to view and interact with the demos.</p>
           <button className='cta button' onClick={mint}>MINT NFT</button>
         </div>
               <div className='demo-selector'>

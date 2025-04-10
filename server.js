@@ -28,13 +28,13 @@ const web3 = new alch.Alchemy(config);
 
 const dbb = new DynamoDB({accessKeyId: process.env.AWS_ACCESS_KEY_ID, secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY, region: 'us-west-2'});
 
-// Provider
+// Provider - 
 const alchemyProvider = new ethers.providers.AlchemyProvider("goerli", process.env.ALCHEMY_ID);
 
-// Signer
+// Signer - 
 const signer = new ethers.Wallet(process.env.PRIVATE_KEY, alchemyProvider);
 
-// Contract
+// Contract - 
 const installedContract = new ethers.Contract(process.env.CONTRACT_ADDRESS, contractA.abi, signer);
 
 
